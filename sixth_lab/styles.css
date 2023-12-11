@@ -1,0 +1,46 @@
+/* Основные стили сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-item img:hover {
+    transform: scale(1.1);
+}
+
+.contact-item p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #333;
+}
