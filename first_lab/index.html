@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Образование</li>
+                    <li>Навыки</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="about_me">
+                <div class="about_me__picture">
+                    <div class="circle">
+
+                        <img src="./img/profile_photo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about_me__text">
+                    <div class="about_me__text-title">
+                        <h1>Обо мне</h1>
+                    </div>
+                    <div class="about_me__text-info">
+                        Я студент-программист, глубоко увлеченный миром технологий и кодирования. Мои навыки в
+                        программировании позволяют мне творчески решать задачи и создавать инновационные проекты. Я
+                        постоянно стремлюсь к изучению новых технологий для создания полезных и значимых приложений.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="container">
+            <div class="education__title">Образование</div>
+            <div class="education">
+                <div class="education__picture"><img src="./img/logo_school.jpg" alt=""></div>
+                <div class="education__text">
+                    <div class="education__text-title">Школа №922</div>
+                    <div class="education__text-year">2011-2022</div>
+                </div>
+                
+            </div>
+            <div class="education">
+                <div class="education__text">
+                    <div class="education__text-title">Московский Политех</div>
+                    <div class="education__text-year">2022-2026</div>
+                    <div class="education__text-info">Обучаюсь по специальности Прикладная информатика в бакалавриате, и получаю ценные знания и навыки в программировании</div>
+                </div>
+                <div class="education__picture"><img src="./img/polytech.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="skills__title">Навыки</div>
+            <div class="skills">
+                <div class="skills__item">
+                    <div class="skills__item-title">HTML CSS</div>
+                    <div class="skills__item-info">2 года опыта работы с версткой</div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-title">Python</div>
+                    <div class="skills__item-info">2 года опыта работы с Python ботами</div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-title">Docker</div>
+                    <div class="skills__item-info">2 года опыта работы с Docker</div>
+                </div>
+              </div>
+        </div>
+        <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Технология</th>
+                    <th>Опыт</th>
+                    <th>Уровень знания</th>
+            
+        
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Фриланс 2 года</td>
+                    <td>6/10 Junior+</td>
+                  
+                </tr>
+                <tr>
+                    <td>Html CSS</td>
+                    <td>Фриланс 5 лет</td>
+                    <td>8/10 Middle +</td>
+                  
+                </tr>
+        
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+
+            <div class="contact__title">Мои контакты</div>
+            <ul>
+                <li>Gmail: artem@chistiakov.su </li>
+                <li>ТГ: https://t.me/ARCHESTERFILD</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $('.skills').slick({
+            infinite: true,
+            autoplay: true,
+
+          });
+        
+    </script>
+</body>
+
+</html>

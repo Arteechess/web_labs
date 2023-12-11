@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Форма обратной связи</h1>
+
+    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
+        <label for="fio">ФИО</label>
+        <input type="text" name="fio" id="fio" placeholder="Введите ФИО" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Введите Email" required><br><br>
+
+        <label>Откуда узнали о нас:</label><br>
+        <input type="radio" name="source" value="Интернет">Интернет<br>
+        <input type="radio" name="source" value="Учебная группа">Учебная группа<br>
+        <input type="radio" name="source" value="Реклама">Реклама<br><br>
+
+        <label for="type">Тип обращения</label>
+        <select name="type" id="type">
+            <option value="Жалоба">Жалоба</option>
+            <option value="Предложение">Предложение</option>
+        </select><br><br>
+
+        <label for="message">Текст сообщения</label><br>
+        <textarea name="message" id="message" rows="5" placeholder="Введите текст сообщения"
+            required></textarea><br><br>
+
+        <label for="attachments">Вложения</label>
+        <input type="file" name="attachments" id="attachments"><br><br>
+
+        <input type="checkbox" name="agreement" id="agreement" required>
+        <label for="agreement">Даю согласие на обработку персональных данных</label><br><br>
+
+        <button type="submit">Отправить</button>
+        <div class="auth">
+            <h2>Перейти на форму аутентификации</h2>
+            <a href="login.html">Форма аутентификации</a>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>

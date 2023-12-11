@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #DF826C;
+    color: #fff;
+}
+
+header ul {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+header ul li {
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.about_me {
+    display: flex;
+
+}
+
+.circle {
+    width: 200px;
+  
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about_me{
+    display: flex;
+    margin-top: 80px;
+    color: #DF826C;
+}
+
+.about_me__text{
+    margin-left: 80px;
+}
+
+.about_me__text-info{
+    width: 500px;
+    color: #000;
+}
+
+.education__title{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.education{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education__text{
+    width: 600px;
+}
+
+.education__text-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.education__text-year{
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.education__text-info{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.education__picture img{
+    width: 216px;
+    height: 216px;
+}
+
+.skills{
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.skills__item{
+    margin: 0 auto;
+}
+
+.skills div{
+    font-size: 70px;
+}
+
+.skills__title{
+    font-size: 50px;
+}
+
+.skills__item-title{
+    font-size: 30px !important; 
+}
+
+.skills__item-info{
+   font-size: 20px !important;
+}
+
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Путешествия</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#destinations">Места</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="hero">
+      <h1>Добро пожаловать в мир путешествий!</h1>
+      <p>Отправьтесь в незабываемые приключения с нами.</p>
+      <a href="#destinations" class="btn">Посмотреть места</a>
+    </section>
+    
+    <section id="about">
+      <h2>О нас</h2>
+      <p>Мы - команда истинных путешественников, чья страсть к приключениям приводит нас к самым захватывающим уголкам мира. Нашей целью является не просто показать вам новые места, но и подарить вам незабываемые впечатления и переживания.
+
+        Мы занимаемся тщательным изучением и анализом различных уголков планеты, чтобы предложить вам только лучшие места для путешествий. Наш опыт позволяет создавать уникальные маршруты, которые погрузят вас в культуру, историю и природную красоту каждого места.
+    </p>
+    </section>
+    
+    <div class="center"><h2>Популярные места</h2></div>
+    <section id="destinations">
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour1.jpg" alt="Место 1">
+        </div>
+        <h3>Париж, Франция</h3>
+        <p>Изучите красоты старого света в городе любви.</p>
+      </div>
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour2.jpg" alt="Место 2">
+        </div>
+        <h3>Мачу-Пикчу, Перу</h3>
+        <p>Откройте тайны древней инковской цивилизации в горах Анд.</p>
+      </div>
+  
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour3.jpg" alt="Место 3">
+        </div>
+        <h3>Абу Даби, ОАЭ</h3>
+        <p>Попробуйте все разные виды развлечений в ОАЭ.</p>
+      </div>
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour4.jpg" alt="Место 4">
+        </div>
+        <h3>Берлин, Германия</h3>
+        <p>Вспомните всю красоту истории в историческом городе.</p>
+      </div>
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour5.jpg" alt="Место 5">
+        </div>
+        <h3>Москва, Россия </h3>
+        <p>Расслабьтесь в одном из самых красивых городов.</p>
+      </div>
+      <div class="destination">
+        <div class="destination-img">
+          <img src="./img/tour6.jpg" alt="Место 6">
+        </div>
+        <h3>Стокгольм, Польша</h3>
+        <p>Ощутите всю красоту Польшы.</p>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Свяжитесь с нами</h2>
+      <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Ваш Email" required>
+        <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="center"><p>&copy; 2023 Путешествия по миру</p></div>
+  </footer>
+</body>
+</html>
